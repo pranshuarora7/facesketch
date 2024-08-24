@@ -1,0 +1,29 @@
+# Ignore virtual environment folders
+env/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore data files (since it's large, and you might not want to push it)
+data/
+
+# Ignore model checkpoints and logs
+checkpoints/
+logs/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore config and environment files
+.env
+config.json
